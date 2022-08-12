@@ -103,7 +103,7 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -118,4 +118,34 @@ form label, form p {
 
 .checkbox {
     margin: 20px 0;
+}
+
+.enviar {
+    width: 50%;
+    height: 60px;
+    color: white;
+    background-color: #c78c19;
+    border: none;
+    font-weight: bold;
+}
+
+.enviar:hover {
+    transition: 1s;
+    background-color: red;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
 }
