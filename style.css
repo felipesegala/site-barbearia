@@ -171,6 +171,14 @@ td, th {
     clear: left;
 }
 
+.titulo-principal::before {
+    content: " [ ";
+}
+
+.titulo-principal::after {
+    content: " ] ";
+}
+
 .principal {
     padding: 3em 0;
     background-color: #fefefe;
@@ -234,6 +242,10 @@ td, th {
 
 .itens {
     line-height: 1.5em;
+}
+
+.itens::before {
+    content: "★";
 }
 
 .itens:first-child {
