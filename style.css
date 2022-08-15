@@ -98,10 +98,17 @@ footer {
     margin: 20px;
 }
 
-/*CSS pagina CONTATO*/
-main {
-    
+@media screen and (max-width: 480px){
+    .produtos li {
+        display: block;
+        margin-top: 10px;
+    }
+
 }
+
+
+/*CSS pagina CONTATO*/
+
 
 form {
     margin: 40px 0;
