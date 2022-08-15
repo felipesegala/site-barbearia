@@ -1,0 +1,29 @@
+.ute {
+    width: 150px
+}
+
+div {
+    border: 4px solid black;
+    margin: 10px;
+    height: 170px;
+}
+
+#caixa1 {
+    text-align: center; /*não é o jeito certo pois não é texto o conteudo*/
+}
+
+#caixa2 {   /*melhor forma, mas como dou espaçamento entre elas?*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#img3 {  /*quando quero trabalhar somente com a imagem*/
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
